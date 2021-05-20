@@ -85,9 +85,7 @@ public class Order {
     }
 
     public void setDriver(Client driver) {
-        if (driver != null) {
             this.driver = driver;
-        }
     }
 
     public Box getBox() {
